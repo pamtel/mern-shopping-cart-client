@@ -1,7 +1,7 @@
 import * as actionTypes from "../constants/productConstants";
 import axios from "axios";
 
-const rootUrl = "http://127.0.0.1:5000"
+const rootUrl = "https://mern-shopping-cart-server.herokuapp.com"
 
 export const getProducts = () => async (dispatch) => {
   try {

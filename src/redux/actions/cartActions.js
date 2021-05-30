@@ -1,7 +1,7 @@
 import * as actionTypes from '../constants/cartConstants';
 import axios from 'axios';
 
-const rootUrl = "http://127.0.0.1:5000"
+const rootUrl = "https://mern-shopping-cart-server.herokuapp.com"
 
 export const addToCart = (id, qty) => async (dispatch, getState) => {
     const { data } = await axios.get(`${rootUrl}/api/products/${id}`);
