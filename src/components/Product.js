@@ -11,7 +11,7 @@ function Product(props) {
   const {imageUrl, name, price, description, _id:productId} = props.product;
 
    return (
-    <div className="col">
+    <div className="col mb-3 mb-sm-0">
       <div className="card" data-aos="zoom-in" style={{width: "20rem"}}>
         <img
           src={imageUrl}
