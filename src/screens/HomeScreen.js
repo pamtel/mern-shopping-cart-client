@@ -27,8 +27,8 @@ function HomeScreen() {
         <MobileCarousel />
       </div>
 
-      <div className="container p-5">
-        <h2 className="text-center text-uppercase fs-1 mb-4 fw-bolder">Latest Products</h2>
+      <div className="container m-sm-5">
+        <h2 className="text-center text-uppercase fs-1 my-4 fw-bolder">Latest Products</h2>
         <div className="">
           <div className="row gap-5 sm-gap-0">
             {loading ? (
