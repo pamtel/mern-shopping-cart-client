@@ -12,9 +12,6 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .img-style {
   height: 500px;
 }
@@ -53,7 +50,6 @@
 
 .cartImg {
   width: 7rem;
-  /* height: 7rem; */
 }
 
 .boxShadow {
