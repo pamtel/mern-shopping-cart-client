@@ -32,7 +32,9 @@ function HomeScreen() {
         <div className="">
           <div className="row gap-5 sm-gap-0">
             {loading ? (
-              <h2>Loading...</h2>
+              <div className="d-flex justify-content-center">
+                <div className="wobbling-2"></div>
+              </div>
             ) : error ? (
               <h2>{error}</h2>
             ) : products.length > 0 ? (
