@@ -27,10 +27,10 @@ function HomeScreen() {
         <MobileCarousel />
       </div>
 
-      <div className="container py-5 ps-4 p-sm-5">
-        <h2 className="text-center text-uppercase fs-1 my-4 fw-bolder">Latest Products</h2>
+      <div className="container py-5 p-sm-5">
+        <h2 className="text-center text-uppercase fs-1 my-5 fw-bolder">Latest Products</h2>
         <div className="">
-          <div className="row gap-5 sm-gap-0">
+          <div className="row  sm-gap-0">
             {loading ? (
               <div className="d-flex justify-content-center">
                 <div className="wobbling-2"></div>

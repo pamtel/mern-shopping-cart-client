@@ -56,6 +56,18 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.img-box{
+  height: 200px;
+  width: 100%
+}
+
+ .img-box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center
+}
+
 /* loader */
 .wobbling-2 {
   width:120px;

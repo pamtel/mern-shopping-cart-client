@@ -11,13 +11,18 @@ function Product(props) {
   const {imageUrl, name, price, description, _id:productId} = props.product;
 
    return (
-    <div className="col mb-3 mb-sm-0">
-      <div className="card" data-aos="zoom-in" style={{width: "20rem"}}>
+
+    <div className="col-md-4 px-md-4  mb-5">
+   
+      <div className="card h-100 w-100" data-aos="zoom-in">
+        <div className="img-box">
         <img
           src={imageUrl}
           alt={name}
           className="card-img-top"
         />
+        </div>
+       
         <div className="card-body">
           <h5 className="card-title text-dark fs-6 fw-bold">{name}</h5>
           <p className="card-text text-dark">
